@@ -165,7 +165,7 @@ function animate(){
 	c.fillStyle = 'black'
 	c.fillRect(0, 0, canvas.width, canvas.height)
 	background.update()
-	c.fillStyle = 'rgba('
+	c.fillStyle = 'rgba(255, 255, 255, 0.15)'
 	c.fillRect(0,0,canvas.width, canvas.height)
 	player.update()
 	enemy.update()
